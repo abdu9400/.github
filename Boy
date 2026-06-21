@@ -1,0 +1,33 @@
+// Empty / clear buffer 
+// Remove 'let' in subsequent runs, otherwise 
+//  Dev Tools gives an error
+let str=''; 
+
+for (let i=0; bannedWordsList[i]; i++) {
+    let word = bannedWordsList[i];
+    let c = word[0];
+
+    // Rotate out the character for different lists
+    if (c === 'z') {
+        // console.log(word);
+        str += word + "\n";
+    }
+}
+
+// Show me the money type mood
+str;
+
+and
+
+
+str = '';
+
+// pornMap is an 'object'
+for (let property in pornMap) {
+    let firstLetter = property[0].toLowerCase();
+    
+    if (firstLetter === 'z') {
+        str += property + '\n';
+    }
+}
+str;
